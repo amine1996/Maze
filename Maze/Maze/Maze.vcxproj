@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{36EAD148-F7C0-4312-A980-BD412EA9EB15}</ProjectGuid>
-    <RootNamespace>Projet1</RootNamespace>
+    <RootNamespace>Maze</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
     <ProjectName>Maze</ProjectName>
   </PropertyGroup>
