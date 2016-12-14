@@ -1,15 +1,13 @@
-#include "DepthSearchMaze.h"
+#include "PrimMaze.h"
 #include <iostream>
 #include <time.h>
 int main()
 {
 	srand(time(NULL));
+	PrimMaze maze(31, 31);
 
-	DepthSearchMaze DSM = DepthSearchMaze(10, 10);
-	DSM.generateMaze();
 
-	std::cout << DSM.toString();
-
+	std::cout << maze.toString();
 	system("pause");
 	return 0;
 }

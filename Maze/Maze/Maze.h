@@ -7,17 +7,14 @@
 class Maze
 {
 protected:
-	int row;
-	int column;
+	int rowCount;
+	int columnCount;
 
 
 public:
-	const static char WALL = '*';
-	const static char SPACE = ' ';
-
 	Maze(int pRow, int pColumn);
-	int getRow() { return row; }
-	int getColum() { return column; }
+	int getRowCount() { return rowCount; }
+	int getColumCount() { return columnCount; }
 
 	void generateMaze();
 	std::string toString();

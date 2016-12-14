@@ -2,6 +2,6 @@
 
 Maze::Maze(int pRow, int pColumn)
 {
-	row = pRow;
-	column = pColumn;
+	rowCount = pRow;
+	columnCount = pColumn;
 }
