@@ -21,9 +21,9 @@ private:
 	std::vector<position> toVisit;
 	
 	void initMaze();
-	std::vector<position> getNeighbors(position pPos);
-	Cell getCell(position pPos) { return maze.at(pPos.row).at(pPos.column);/*[pPos.row][pPos.column]*/ }
-	void setCell(position pPos, Cell pCell) { maze.at(pPos.row).at(pPos.column) = pCell;/*[pPos.row][pPos.column] = pCell*/ }
+	std::vector<position> getNeighborsPosition(position pPos);
+	Cell getCellState(position pPos) { return maze[pPos.row][pPos.column]; }
+	void setCellState(position pPos, Cell pCell) { maze[pPos.row][pPos.column] = pCell; }
 
 	bool inMaze(position pos);
 	position getOpposedCellPosition(position centerCell, position neighborCell);

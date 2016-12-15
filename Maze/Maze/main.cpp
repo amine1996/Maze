@@ -4,7 +4,7 @@
 int main()
 {
 	srand(time(NULL));
-	PrimMaze maze(31, 31);
+	PrimMaze maze(100, 100);
 
 
 	std::cout << maze.toString();
